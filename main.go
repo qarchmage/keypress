@@ -29,6 +29,7 @@ func main() {
 		ms, err = strconv.Atoi(arg[2])
 		if err != nil {
 			fmt.Println("second arg must be a number")
+			return
 		}
 	}
 
